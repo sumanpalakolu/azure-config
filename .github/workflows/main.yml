@@ -11,7 +11,7 @@ env:
   GCP_ARTIFACT_REGISTRY_LOCATION: ${{ env.GCP_REGION }} # Assuming same region
   GCP_ARTIFACT_REGISTRY_NAME: ${{ secrets.GCP_ARTIFACT_REGISTRY_NAME }} # e.g., my-java-repo
   GCP_ARTIFACT_REGISTRY_REPOSITORY_FORMAT: maven # Or your repository format
-  MAVEN_GROUP_ID: com.example # Replace with your Maven group ID (used by Spring Boot Gradle plugin)
+  MAVEN_GROUP_ID: com.azureprep.com # Replace with your Maven group ID (used by Spring Boot Gradle plugin)
   MAVEN_ARTIFACT_ID: my-app # Replace with your Maven artifact ID (used by Spring Boot Gradle plugin)
   JAVA_VERSION: 17
   GRADLE_OPTS: "-Dorg.gradle.daemon=false" # Recommended for CI

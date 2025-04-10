@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.azureprep.com'
-Version = '0.0.1-SNAPSHOT'
+//version = '0.0.1-SNAPSHOT'
 
 java {
 	sourceCompatibility = '17'
@@ -46,7 +46,7 @@ publishing {
         maven(MavenPublication) {
 	    groupId = 'com.azureprep.com' // Replace with your desired groupId
             artifactId = 'spring-cloud-config-server' // Replace with your desired artifactId
-            version = Version // Replace with your desired version
+            version = '0.0.1-SNAPSHOT'
             from components.java
         }
     }

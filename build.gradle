@@ -50,6 +50,7 @@ publishing {
             from components.java
 	    artifact("$buildDir/libs/${project.name}-${version}.jar") {
                 builtBy tasks.named('jar') // Ensure the 'jar' task builds the artifact
+	    }
         }
     }
 }

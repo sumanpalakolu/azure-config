@@ -35,7 +35,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/OWNER/REPOSITORY_NAME"
+            url = "https://maven.pkg.github.com/sumanpalakolu/azure-config"
             credentials {
                 username = project.properties['gpr.user']
                 password = project.properties['gpr.key']

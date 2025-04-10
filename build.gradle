@@ -46,7 +46,7 @@ publishing {
         maven(MavenPublication) {
 	    groupId = 'com.azureprep.com' // Replace with your desired groupId
             artifactId = 'spring-cloud-config-server' // Replace with your desired artifactId
-            version = '0.0.1-SNAPSHOT' // Replace with your desired version
+            version = version // Replace with your desired version
             from components.java
         }
     }

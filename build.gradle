@@ -48,7 +48,7 @@ publishing {
             //artifactId = 'spring-cloud-config-server' // Replace with your desired artifactId
             //version = '0.0.1-SNAPSHOT'
             from components.java
-	    artifact("$buildDir/libs/${project.name}-${version}.jar") {
+	    artifact("$buildDir/libs/${rootProject.name}-${version}.jar") {
                 builtBy tasks.named('jar') // Ensure the 'jar' task builds the artifact
 	    }
         }

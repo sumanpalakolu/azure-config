@@ -29,5 +29,5 @@ jobs:
       - name: Publish to GitHub Packages
         run: ./gradlew publish --info
         env:
-          gpr.user: sumanpalakolu@gmail.com
+          gpr.user: sumanpalakolu
           gpr.key: ${{ secrets.G_TOKEN }}

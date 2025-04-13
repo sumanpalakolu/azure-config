@@ -27,7 +27,7 @@ jobs:
         run: ./gradlew clean build -x test
 
       - name: Publish to GitHub Packages
-        run: ./gradlew publish --scan
+        run: ./gradlew publish --info
         env:
           gpr.user: sumanpalakolu@gmail.com
           gpr.key: ${{ secrets.G_TOKEN }}

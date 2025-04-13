@@ -30,4 +30,4 @@ jobs:
         run: ./gradlew publish
         env:
           gpr.user: sumanpalakolu@gmail.com
-          gpr.key: ${{ secrets.GITHUB_TOKEN }}
+          gpr.key: ${{ secrets.G_TOKEN }}

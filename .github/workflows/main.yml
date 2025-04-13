@@ -24,7 +24,7 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Build and Package
-        run: ./gradlew clean build -x test
+        run: ./gradlew clean build -x test --scan
 
       - name: Publish to GitHub Packages
         run: ./gradlew publish

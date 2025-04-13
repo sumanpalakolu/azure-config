@@ -24,10 +24,10 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Build and Package
-        run: ./gradlew clean build -x test --scan
+        run: ./gradlew clean build -x test
 
       - name: Publish to GitHub Packages
-        run: ./gradlew publish
+        run: ./gradlew publish --scan
         env:
           gpr.user: sumanpalakolu@gmail.com
           gpr.key: ${{ secrets.G_TOKEN }}

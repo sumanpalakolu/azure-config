@@ -22,7 +22,7 @@ repositories {
 }
 
 ext {
-    set('springCloudVersion', "2023.0.0") // Use the latest stable Spring Cloud version
+    set('springCloudVersion', "2023.0.0")
 }
 
 dependencyManagement {
